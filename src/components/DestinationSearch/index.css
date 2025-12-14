@@ -1,0 +1,41 @@
+body {
+  text-align: center;
+  flex-direction: column;
+  height: 100%;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.searchBox {
+  background-color: #f1f5f9;
+  border-radius: 10px;
+  width: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 25px;
+  padding: 10px;
+}
+
+.searchBox input {
+  border: none;
+  outline: none;
+  background-color: transparent;
+  padding: 10px;
+  width: 100%;
+}
+.searchBox img {
+  height: 16px;
+}
+
+ul {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 800px;
+  justify-content: center;
+  align-items: center;
+}
